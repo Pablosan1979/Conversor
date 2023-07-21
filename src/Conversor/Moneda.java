@@ -32,7 +32,7 @@ public class Moneda extends javax.swing.JFrame {
         lblLogo.setIcon(new ImageIcon(img.getScaledInstance(lblLogo.getWidth(), lblLogo.getHeight(), Image.SCALE_SMOOTH)));
         this.setLocationRelativeTo(null);
     }
-        private double convertirMonedas(double cantidad, String monedaOrigen, String monedaDestino) {
+        double convertirMonedas(double cantidad, String monedaOrigen, String monedaDestino) {
         
         switch (monedaOrigen) {
             case "Dólares" -> {
